@@ -1,7 +1,7 @@
 # power-apps-tailwindCSS
 using tailwind css ideas and color in powerapps
 
-`code
+`json
 Set(
     tailwindColors,
     {
