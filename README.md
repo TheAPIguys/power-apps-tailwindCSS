@@ -1,7 +1,7 @@
 # power-apps-tailwindCSS
 using tailwind css ideas and color in powerapps
 
-`json
+```javascript
 Set(
     tailwindColors,
     {
@@ -127,4 +127,4 @@ Set(
         rose900: ColorValue("#881337")
     }
 );
-`
+```
