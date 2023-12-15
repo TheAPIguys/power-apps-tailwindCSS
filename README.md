@@ -1,6 +1,9 @@
-# power-apps-tailwindCSS
-using tailwind css ideas and color in powerapps
+# Tailwind CSS Principles in PowerApps
+## Overview
+This repository aims to bring the principles of Tailwind CSS, a utility-first CSS framework, into the PowerApps environment. By adopting Tailwind-like utility classes, you can streamline the styling process in PowerApps, making it more modular and efficient.
 
+## Color Palette
+Define a set of Tailwind-inspired color utility classes using ColorValue() for easy integration with PowerApps. Customize the palette to match the design needs of your application.
 ```javascript
 Set(
     tailwindColors,
@@ -127,4 +130,31 @@ Set(
         rose900: ColorValue("#881337")
     }
 );
+```
+
+## Padding and Margin
+Create utility classes for padding and margin, making it easy to apply consistent spacing throughout your app.
+
+```javascript
+Set(twPadding,
+ {
+        p0: 0,
+        p1: 4,
+        p2: 8,
+        p3: 12,
+        p4: 16,
+        p5: 20,
+        p6: 24,
+        p8: 32,
+        p10: 40,
+        p12: 48,
+        p16: 64,
+        p20: 80,
+        p24: 96,
+        p32: 128,
+        p40: 160,
+        p48: 192,
+        p56: 224,
+        p64: 256
+ } );
 ```
