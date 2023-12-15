@@ -2,7 +2,7 @@
 ## Overview
 This repository aims to bring the principles of Tailwind CSS, a utility-first CSS framework, into the PowerApps environment. By adopting Tailwind-like utility classes, you can streamline the styling process in PowerApps, making it more modular and efficient.
 
-[Color Pallet](#color-pallet)
+[Color Pallet](#color-pallete)
 
 [Padding](#padding)
 
